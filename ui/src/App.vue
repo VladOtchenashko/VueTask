@@ -18,7 +18,6 @@
   </div>
 
     <div class="comSection">
-      <h2>Comments</h2>
     <div v-for="comment in comments" :key="comment.id" class="comments" align="center">
       <v-card width="800" variant="tonal" class="vcard" align="center">
       <template v-slot:title>
